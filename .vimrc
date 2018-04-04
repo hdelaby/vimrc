@@ -13,6 +13,14 @@ Plugin 'mhinz/vim-startify'
 Plugin 'tpope/vim-commentary'
 Plugin 'ctrlpvim/ctrlp.vim'
 Plugin 'scrooloose/nerdtree'
+Plugin 'isRuslan/vim-es6'
+Plugin 'flazz/vim-colorschemes'
 
 call vundle#end()
+
 filetype plugin indent on
+set tabstop=4
+set shiftwidth=4
+set expandtab
+colorscheme dracula
+set backspace=indent,eol,start
